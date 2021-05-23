@@ -88,6 +88,7 @@ select {
 ////////////// КОНЕЦ СБРОСА СТИЛЕЙ //////////////
 
 body {
+	
 	position: fixed;
 	overflow: hidden;
 	background-color: #232422;
@@ -97,11 +98,14 @@ body {
 .superDiv {
 	overflow: hidden;
 	position: absolute;
-	background-color: #232422;
+	//background-color: #232422;
 	padding-top: 1%;
 	padding-bottom: 1%;
 	height: 100%;
 	width: 100%;
+	background-image: url(../img/showphoto/bg.jpg);
+	background-size: cover;
+	background-position: center;
 }
 .mainDiv {
 	outline-offset: -0.5em;
@@ -123,8 +127,8 @@ body {
 }
 .infoText {
 	font-family: Pattaya;
-	margin-left: 10%;
-	margin-top: 2%;
+	margin-left: 5%;
+	margin-top: -1%;
 	word-spacing: 0.5em;
 }
 #logoTextH1 { 
